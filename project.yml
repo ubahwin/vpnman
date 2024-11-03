@@ -1,0 +1,15 @@
+name: vpnman
+options:
+  bundleIdPrefix: com.ubahwin
+  developmentLanguage: ru
+targets:
+  vpnman:
+    type: application
+    platform: macOS
+    sources: 
+        - path: VPNMan
+    deploymentTarget: 13.0
+    settings:
+        base:
+          INFOPLIST_FILE: VPNMan/Resources/Info.plist
+  
